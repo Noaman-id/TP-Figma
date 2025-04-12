@@ -8,6 +8,30 @@ body{
     height: 100%;
 }
 
+/*Format iPhone :*/ 
+
+@media screen and ( max-width:500px) {
+    .classedel’elementHTML {
+        font-size : 10px
+    }
+}
+
+/*Format ipad:*/ 
+
+@media screen and (min-width: 501px) and (max-width: 1000px) {
+    .classedel’elementHTML {
+        font-size: 15px;
+        }
+}
+
+/*Format pc :*/ 
+
+@media screen and (min-width: 1001px) {
+    .classedel’elementHTML {
+        font-size : 20px
+    }
+}
+
 .first-background{
     /* Rectangle 4 */
     position: absolute;
@@ -53,6 +77,10 @@ body{
     height: 20px;
 }
 
+.logo:hover{
+    cursor: pointer;
+}
+
 .Login{
     align-self: center;
     position: absolute;
@@ -66,6 +94,12 @@ body{
     
 }
 
+.Login:hover{
+    cursor: pointer;
+    transform: translateY(-5px);
+    transition: transform 0.3s ease-in-out;
+}
+
 h2{
 
     font-weight: 500;
@@ -76,6 +110,16 @@ h2{
     font-family: 'DM Sans', sans-serif;
 
     color: #FFFFFF;
+}
+
+h2:hover{
+    cursor: pointer;
+    color: #007396;
+}
+
+.hov:hover{
+    cursor: pointer;
+    color: #00a2d4;
 }
 
 .Cercle{
@@ -178,6 +222,13 @@ p{
     left: 10%;
     margin: 0px;
 }
+
+.BOX:hover{
+    cursor: pointer;
+    transform: translateY(-5px);
+    transition: transform 0.3s ease-in-out;
+}
+
 h3{
     font-size: 16px;
     font-weight: 300;
@@ -199,6 +250,11 @@ h3{
     height: 60px;
     display: flex;
 }
+
+.Getdemo:hover{
+    cursor: pointer;
+}
+
 .demo{
     color: #FFFFFF;
 }
@@ -286,6 +342,10 @@ h3{
     color: #04AADD;
 }
 
+.Learn:hover{
+    cursor: pointer;
+}
+
 .title{
     position: absolute;
     top: 1950px;
@@ -366,6 +426,10 @@ h3{
     letter-spacing: 0.5px;
     font-size: 8px;
     color: #04AADD;
+}
+
+.learnabout:hover{
+    cursor: pointer;
 }
 
 .sc3{
@@ -518,6 +582,10 @@ h5{
     transform: rotate(0deg);
 }
 
+.arrow:hover{
+    cursor: pointer;
+}
+
 .profile{
     position: absolute;
     top: 395px;
@@ -552,6 +620,10 @@ h5{
     transform: rotate(0deg);
 }
 
+.rightarrow:hover{
+    cursor: pointer;
+}
+
 .dots{
     display: flex;
     position: absolute;
@@ -574,3 +646,177 @@ h5{
     border-radius: 50%;
     margin-left: 5px;
 }
+
+.sc5{
+    width: 100%;
+    height: 400px;
+
+    display: flex;
+    justify-content: center;
+
+    position: absolute;
+    top: 3700px;
+}
+
+.thebox{
+    width: 75%;
+    height: 360px;
+    justify-self: center;
+    background: linear-gradient(270.04deg, #01B8D9 0.05%, #24CEED 97.84%);
+    border-radius: 5px;
+    display: flex;
+}
+
+
+.cercles{
+    position: absolute;
+    left: 59.7%;
+}
+
+.boxtitle{
+    font-family: 'DM Sans', sans-serif;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 15%;
+    left: 17%;
+}
+
+.join{
+    font-family: 'DM Sans', sans-serif;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 50%;
+    left: 17%;
+}
+
+.profiles{
+    position: absolute;
+    top: 60%;
+    left: 17%;
+    display: flex;
+    gap: 15px;
+}
+
+.others{
+    position: absolute;
+    top: 62%;
+    left: 27.5%;
+    display: flex;
+    gap: 15px;
+
+    color: #FFFFFF;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.trial{
+    position: absolute;
+    top: 35%;
+    left: 68%;
+    border-radius: 4px;
+    width: 200px;
+    height: 60px;
+    display: flex;
+    gap: 15px;
+    background-color: #FFFFFF;
+    justify-content: center;
+}
+
+.trial:hover{
+    cursor: pointer;
+    transform: translateY(-5px);
+    transition: transform 0.3s ease-in-out;
+}
+
+.txt{
+    z-index: 2;
+    color: #00B8D9;
+    align-self: center;   
+}
+
+.item{
+    display: flex;
+    position: absolute;
+    top: 37%;
+    left: 24%;
+}
+
+.lastPage{
+    background-color: #081315;
+    position: absolute;
+    top: 4200px;
+    width: 100%;
+    height: 620px;
+    right: 0.01%;
+}
+
+.logs{
+    position: absolute;
+    top: 90px;
+    left: 12%;
+}
+
+.Header2{
+    display: flex;
+    width: 100%;
+    height: 14%;
+}
+
+.Product{
+    position: absolute;
+    top: 30px;
+    left: 30%;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+}
+
+.Services{
+    position: absolute;
+    top: 30px;
+    left: 45%;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+}
+
+.Company{
+    position: absolute;
+    top: 30px;
+    left: 60%;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+}   
+
+.More{
+    position: absolute;
+    top: 30px;
+    left: 75%;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+}
+
+h6{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.lasttxt{
+    margin-top: -15px;
+    line-height: 45px;
+    font-weight: 200;
+}
+
+.BOTTOM{
+    position: absolute;
+    top: 450px;
+    left: 40%;
+    display: flex;
+    gap: 15px;
+}
+
